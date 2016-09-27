@@ -1,8 +1,89 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
+}
+
+h1 {
+  text-align: center;
+}
+.bigger {
+  font-size: 80px;
+}
+h5 {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  padding: 16px;
+}
+span {
+  font-size: 50px;
+}
+
+.align-wrapper {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+.align-center {
+  display: table-cell;
+  vertical-align: middle;
+}
+.align-bottom {
+  display: table-cell;
+  vertical-align: bottom;
+}
+
+.section {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 24px;
+  padding-top: 24px;
+}
+
+.top {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.curry {
+  background-image: url("http://pds.exblog.jp/pds/1/201112/17/99/d0180399_9474577.jpg");
+}
+
+.okonomiyaki {
+  background-image: url("https://www.atpress.ne.jp/releases/34023/1_1.jpg");
+}
+
+.ramen {
+  background-image: url("http://masusushiandrobata.com/wp/wp-content/uploads/2014/03/pork-belly-ramen_000051.jpg");
+}
+
+.sashimi {
+  background-image: url("http://files.hangame.co.jp/blog/2011/51/19ca8164/05/14/35181475/19ca8164_1305367993872.jpg");
+}
+
+.soba {
+  background-image: url("http://pds.exblog.jp/pds/1/201209/07/62/b0209162_8522616.jpg");
+}
+
+.sushi {
+  background-image: url("http://image.taspy.jp/article/original/29345.jpg");
+}
+
+.tempura {
+  background-image: url("http://kokoro-sushi.jp/wp/wp-content/uploads/MP_144851_1.jpg");
+}
+
+.tonkatsu {
+  background-image: url("http://cdn-ak.f.st-hatena.com/images/fotolife/p/p0lar-star/20120714/20120714102642.jpg");
+}
+
+.udon {
+  background-image: url("http://henkotu.co.jp/content_HP/uploads/2013/07/mochi.jpg");
+}
+
+.yakitori {
+  background-image: url("http://www.hosoi.net/wp-content/uploads/2014/11/1df7234e31a12d73a6d3bb9967ee7114.jpg");
 }
